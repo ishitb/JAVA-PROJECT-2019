@@ -14,7 +14,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.*;
 import static javafx.scene.text.Font.font;
-//import javafx.scene.shape.Circle;
 import javax.swing.*;
 /**
  *
@@ -53,6 +52,7 @@ class Node
 	return right;
     }
 }
+
 public class BinarySearchTree 
 {
     Node root=null,deleteparent,small;    
